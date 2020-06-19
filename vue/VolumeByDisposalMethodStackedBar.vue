@@ -80,7 +80,7 @@
                     },
 
                     xAxis: {
-                        categories: this.dateRange.map(date => this.$dateFns.format(date, 'YYYY-MM-DD'))
+                        categories: this.dateRange.map(date => this.$dateFns.format(date, 'YYYY-MM'))
                     },
 
                     yAxis: {
