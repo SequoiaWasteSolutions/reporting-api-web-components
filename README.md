@@ -35,3 +35,8 @@ The calculated baseline spend prop must come from the following endpoint:
 The waste spend prop can come from either of the following endpoints:
 * **GET** client-companies/{id}/reports/vendor-invoice-waste-spend
 * **GET** client-companies/{id}/reports/client-invoice-waste-spend
+
+## Notes for the Vue.js components
+The [date-fns library](https://date-fns.org/) is used to format dates in the components.
+
+`this.$dateFns.format(date, 'YYYY-MM')`
